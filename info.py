@@ -9,19 +9,19 @@ API_ID = int(environ.get('API_ID', '37387930'))
 API_HASH = environ.get('API_HASH', '9215731aac5c36bc32c7cfe9b28a7833')
 
 # Bot Token, This Is Main Bot
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8549013218:AAEZp8rftAh49zSK2OfeNvcnClaCNs623Nk")
 
 # Admin Telegram Account Id For Withdraw Notification Or Anything Else
 ADMIN = int(environ.get('ADMIN', '5977820427'))
 
 # Back Up Bot Token For Fetching Message When Floodwait Comes
-BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "")
+BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "8500855417:AAEVsvVf6eO-JAt9Eb7-e76D7BSOAQbJGv4")
 
 # Log Channel, In This Channel Your All File Stored.
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003873059858'))
 
 # Mongodb Database For User Link Click Count Etc Data Store.
-MONGODB_URI = environ.get("MONGODB_URI", "")
+MONGODB_URI = environ.get("MONGODB_URI", "mongodb+srv://suman001:@Suman1432#@cluster0.m126uqi.mongodb.net/?appName=Cluster0")
 
 # Stream Url Means Your Deploy Server App Url, Here You Media Will Be Stream And Ads Will Be Shown.
 STREAM_URL = environ.get("STREAM_URL", "")
