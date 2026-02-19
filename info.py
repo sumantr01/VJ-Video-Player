@@ -21,7 +21,7 @@ BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "8500855417:AAEVsvVf6eO-JAt9E
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003873059858'))
 
 # Mongodb Database For User Link Click Count Etc Data Store.
-MONGODB_URI = environ.get("MONGODB_URI", "mongodb+srv://suman001:@Suman1432#@cluster0.m126uqi.mongodb.net/?appName=Cluster0")
+MONGODB_URI = environ.get("MONGODB_URI", "mongodb+srv://suman001:<db_password>@cluster0.tt60lwz.mongodb.net/?appName=Cluster0")
 
 # Stream Url Means Your Deploy Server App Url, Here You Media Will Be Stream And Ads Will Be Shown.
 STREAM_URL = environ.get("STREAM_URL", "")
